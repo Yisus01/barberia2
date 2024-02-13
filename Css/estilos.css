@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.headerimage{
+    background-color: aqua;
+    width: 100%;
+    /* height: 90rem; */
+}
+.headerimage img{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: auto;
+    width: 100%;
+    opacity: 0.5;
+    height: 90rem;
+}
+.headerdiv{
+    display: flex;
+}
+.headerdiv__logo{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.headerdiv__enlaces{
+    margin-left: 40rem;
+    margin-top: 4rem;
+}
+.headerdiv__enlaces a{
+    margin-left: 3rem;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.headerdiv__enlaces a:nth-last-of-type(6){
+    border-bottom: 3px solid #B59472;
+}
+.headerdiv__rs{
+    margin-top: 4rem;
+}
+.headerdiv__rs i{
+    color: #F7F7F7;
+    margin-left: 2.5rem;
+}
+.headerdiv__rs i:hover{
+    cursor: pointer;
+}
+.headerdiv__enlaces a:nth-of-type(4){
+    border: 3px solid #F7F7F7;
+    color: white;
+    padding: 3px 10px;
+}
+.headerdiv__enlaces a:hover{
+    border-bottom: 3px solid #B59472;
+}
+.headerdiv__rs i:hover{
+    border-bottom: 3px solid #B59472;
+}
+.header__titulo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.header__titulo p{
+    font-size: 30px;
+}
+.header__tituloo{
+    display: flex;
+    justify-content: center;
+}
+.header__tituloo h1{
+    color: white;
+    font-size: 100px;
+    margin-top: -1rem;
+}
+.header__reserva{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border: 3px solid white;
+    width: 9rem;
+    margin-left: 56rem;
+    padding: 15px;
+    
+}
+.header__reserva a{
+    text-decoration: none;
+    color: white;
+}
+.header__reserva:hover{
+    background-color: #F7F7F7;
+    transition: 0.2s;
+}
+.header__reserva a:hover{
+    color: black;
+}
+.accion{
+    background-color: black; 
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.accion__covid{
+    font-size: 20px;
+    margin-left: 7rem;
+}
+.accion__plan h1{
+    font-size: 55px;
+    text-align: center;
+}
+.accion__plan{
+    margin-left: 48rem;
+    width: 30rem;
+}
+.accion__covid, .accion__plan{
+    text-align: center;
+    color: white;
+}
+.accion__ul{
+    margin-left: 5rem;
+    margin-top: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+.accion__ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.accion__a a{
+    text-decoration: none;
+    color: white;
+}
+.accion__a{
+    background-color: #B59472;
+    width: 25rem;
+    margin-left: 51rem;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.accion__a:hover{
+    background-color: black;
+}
+.accion__a a:hover{
+    color: #B59472;
+}
+.conocenos{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.conocenos__conocenos{
+    text-align: center;
+    font-size: 23px;
+}
+.conocenos__titulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.conocenos__p{
+    text-align: center;
+    color: #B59472;
+    font-size: 23px;
+}
+.conocenos__a a{
+    text-decoration: none;
+    margin-left: 3rem;
+    color: black;
+}
+.conocenos__a{
+    text-align: center;
+    font-size: 23px;
+    
+}
+.conocenos__a a:hover{
+    border-bottom: 3.5px solid black;
+}
+.compromiso{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.compromiso__img img{
+    width: 59.5rem;
+    height: 35rem;
+}
+.compromiso__compromiso{
+    color: white;
+    background-color: black;
+    width: 59.44rem;
+}
+.compromiso__compromiso p:nth-of-type(1){
+    width: 8rem;
+    border-bottom: 3px solid white;
+    color: #B59472;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-left: 7rem;
+
+    
+}
+.compromiso__compromiso h2{
+    font-size: 40px;
+    margin-left: 7rem;
+}
+.compromiso__p{
+    width: 40rem;
+    text-align: left;
+    font-size: 23px;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.servicios__card img{
+    width: 5rem;
+}
+.servicios__card{
+    text-align: center;
+    margin-top: 3rem;
+}
+.servicios__card h3{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.servicios__card p{
+    margin-top: 1.5rem;
+}
+.intento{
+    background-image: url(https://fondosmil.com/fondo/64240.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    text-align: center;
+    height: 30rem;
+    color: white;
+    margin-top: 5rem;
+
+}
+.intento__titulo:not(.intento){
+    position: relative;
+    top: 10rem;
+}
+.intento__titulo h2{
+    color: #B59472;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.intento__titulo p{
+    font-weight: bold;
+
+}
+.sponsors{
+    margin-left: 30rem;
+}
+.sponsors__primer img{
+    width: 8rem;
+    margin-left: 5rem;
+}
+.sponsors__primer{
+    width: 50rem;
+    margin-left: 7rem;
+}
+.sponsors__segun{
+    width: 50rem;
+    display: flex;
+    margin-top: 1rem;
+}
+.sponsors__segun img{
+    width: 8rem;
+    margin-left: 5rem;
+}
+.sponsors__tercer{
+    width: 50rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 44rem;
+}
+.sponsors__tercer img{
+    width: 8rem;
+    margin-left: 5rem;
+}
+.conocenos__conocenos:nth-last-of-type(2){
+    background-color: #B59472;
+    margin-top: 5.5rem;
+}
+.sponsors__sponsors{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5.5rem;
+}
+.maps{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+.contactoindex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5rem;
+}
+.formindex{
+    background-color: #F9F9F7;
+}
+.contactoindex__derecha{
+    text-align: center;
+}
+.rsindex{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+}
+.rsindex i{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
